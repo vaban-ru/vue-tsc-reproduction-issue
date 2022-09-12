@@ -16,9 +16,8 @@
   </component>
 </template>
 
-<script setup lang="ts">
-import { computed } from "vue";
-import { IEvent } from "@/components/types";
+<script lang="ts">
+import {IEvent} from "@/components/types";
 
 interface ISvButtonProps {
   label: string;
@@ -43,6 +42,10 @@ interface ISvButtonProps {
 interface ISvButtonEmits {
   (event: "click", value: object): void;
 }
+</script>
+
+<script setup lang="ts">
+import { computed } from "vue";
 
 const props = withDefaults(defineProps<ISvButtonProps>(), {
   iconRight: false,
