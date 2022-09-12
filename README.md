@@ -1,1 +1,1 @@
-# Reproduction repo for vie-tsc issue
+# Reproduction repo for vue-tsc issue
