@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "useDefineForClassFields": true,
+    "useDefineForClassFields": false,
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
@@ -25,11 +25,7 @@
     }
   },
   "include": [
-    "src/index.ts",
-    "src/components/**/*.ts",
     "src/components/**/*.vue",
-    "src/composables/**/*.ts",
-    "src/mocks/**/*.ts",
     "src/env.d.ts"
   ],
   "exclude": ["src/api/**/*", "src/api", "src/api/*", "src/api/*.ts"]
