@@ -27,6 +27,5 @@
   "include": [
     "src/components/**/*.vue",
     "src/env.d.ts"
-  ],
-  "exclude": ["src/api/**/*", "src/api", "src/api/*", "src/api/*.ts"]
+  ]
 }
